@@ -2,19 +2,19 @@ package git.Testing;
 
 public class Student {
 	
-	public Student(int id, int name){
+	public Student(int id, String name){
 		this.id = id;
 		this.name = name;
 	}
 	
 	
 	int id;
-	int name;
+	String name;
 
 	public int getId(){
 		return id;
 	}
-	public int getName(){
+	public String getName(){
 		return name;
 	}
 }
